@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family:'Dancing Script',cursive;
+    margin: 0;
+    padding: 20px;
+    
+}
+.container{
+    max-width: 700px;
+    margin: 0 auto;
+    border: 5px solid rgb(48, 3, 3);
+    padding: 15px;
+    color:rgb(95, 95, 95);
+    border-radius: 10px 10px 10px 10px;
+    background-color:rgb(218, 177, 153);
+}
+h1{
+    font-family:'Dancing Script',cursive;
+   text-align:center;
+   color:rgb(67, 67, 202);
+
+}
+
+input[type="submit"]{
+   
+    background-color:rgb(163, 163, 163);
+    color:blue;
+    
+}
+input[type="text"],textarea{
+    width: 100%;
+    padding: 5px;
+    border: 1px solid rgb(240, 200, 200);
+    border-radius: 10px 10px 10px 10px;
+}
+   
